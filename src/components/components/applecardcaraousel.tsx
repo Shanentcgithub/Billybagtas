@@ -226,12 +226,16 @@ const data = [
       <CardContent
         stories={[
           {
-            text: "Heaven's Kiss is a collection of artworks that depict the divine connection between heaven and earth.",
-            image: "/kiss1.png",
+            text: "The fullness of eternal life. The tree of life represents the fullness of eternal life that God wishes to lavish on humanity. It&apos;s one of the most powerful images in God&apos;s Word, extending from the first chapters of Genesis to the final ones of Revelation.",
+            image: "/life.png",
           },
           {
-            text: "This piece reflects on the transformative power of divine love and grace.",
-            image: "/kiss2.png",
+            text: "Prayer is communication with God. We do this by praising Him, confessing our sin before Him, thanking Him and asking Him for our needs and desires. Prayer is communion with our Creator. When we pray, we engage in loving fellowship with the Maker of heaven and earth.",
+            image: "/prayer.png",
+          },
+          {
+            text: "The Sword of the Spirit, which is the word of God, allow us defend ourselves in close combat with the devil by qouting the scripture. The Shield of faith means applying God&apos;s word through faith and seeing beyond worldly troubles.",
+            image: "/sword.png",
           },
         ]}
       />
