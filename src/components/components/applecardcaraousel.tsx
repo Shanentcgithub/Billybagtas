@@ -61,7 +61,7 @@ const Heavenskiss = () => {
           >
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
-              The fullness of eternal life. The tree of life represents the fullness of eternal life that God wishes to lavish on humanity. It's one of the most powerful images in God's Word, extending from the first chapters of Genesis to the final ones of Revelation.
+              The fullness of eternal life. The tree of life represents the fullness of eternal life that God wishes to lavish on humanity. It&apos;s one of the most powerful images in God&apos;s Word, extending from the first chapters of Genesis to the final ones of Revelation.
               </span>{" "}
             </p>
             <Image
