@@ -45,7 +45,6 @@ const CardContent = ({ stories }: { stories: Array<{ text: string; image?: strin
   );
 };
 
-// Example data for a card with multiple stories and images
 const data = [
   {
     category: "ESKINITAS ART GALLERY",
@@ -225,6 +224,9 @@ const data = [
     content: (
       <CardContent
         stories={[
+          {
+            text: "Heaven&apos;s Kiss by Billy Bagtas Introducing Billy Bagtas: A Visionary Brushing the Boundaries of Art Diving into the intricate realm of visual artistry at a young age, Billy Bagtas, a 29-year-old luminary, has illuminated the artistic sphere with his remarkable talent and fervor. With nearly seven years of dedicated practice as a Visual Artist, Billy&apos;s journey is a testament to the transformative power of passion and perseverance. Billy&apos;s odyssey began in 2013 when he embarked on his artistic expedition at Earist Manila, where he delved into the world of Fine Arts. Painting swiftly became his solace and canvas his sanctuary, as he poured his thoughts, emotions, and creativity onto the blank expanse. In this journey, painting competitions emerged as not just challenges, but as stepping stones that bolstered his growth. These competitions not only honed his craft but also germinated the very concepts that continue to resonate in his artistry to this day. One of the pivotal junctures in Billy&apos;s artistic pilgrimage was the fortuitous encounter with the esteemed Sir Eski from Eskinita Art Gallery in 2017. This encounter marked the genesis of a mentorship that would significantly shape his trajectory. Guided by Sir Eski&apos;s seasoned insights, Billy&apos;s artistic horizons expanded, and his comprehension of art&apos;s nuances deepened. This collaboration culminated in a Discovery Award, a testament to Billy&apos;s blossoming ingenuity. Transitioning into a full-time painter after graduating was a momentous decision that propelled Billy&apos;s career to new pinnacles. His immersion in art became all-encompassing, leading him to cross paths with the venerable Sir Manny Garibay of Linangan Art Residency. Under Sir Manny&apos;s mentorship, Billy&apos;s evolution as an artist took a resolute course, his work becoming a mesmerizing interplay of inspiration, technique, and storytelling. Billy Bagtas&apos; artistic expedition is far from over, as he continues to draw inspiration from the ever-evolving tapestry of life. His canvases, now imbued with profound narratives and aesthetic finesse, are a testament to his unwavering commitment to the craft. With each brush stroke, Billy paints not just images but emotions, experiences, and his very essence, inviting us to partake in the vibrant mosaic of his artistic odyssey. As he strides forward, guided by mentors and driven by passion, Billy Bagtas is an artist to watch, a visionary brushing the boundaries of art.",
+          },
           {
             text: "The fullness of eternal life. The tree of life represents the fullness of eternal life that God wishes to lavish on humanity. It&apos;s one of the most powerful images in God&apos;s Word, extending from the first chapters of Genesis to the final ones of Revelation.",
             image: "/life.png",

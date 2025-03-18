@@ -11,21 +11,24 @@ export default function Billybagtas() {
         <div className="flex justify-center items-center w-full">
           <Image
             className="dark:invert w-full max-w-4xl h-auto"
-            src="/billy1.png"
+            src="/billy.JPG"
             alt="Next.js logo"
             width={900}
             height={400}
             priority
           />
         </div>
-        <div className="text-white text-center mx-auto max-w-2xl p-6">
-          <p className="text-lg md:text-xl">
-            Today&apos;s issue (June 13, 2022) at Manila Bulletin Lifestyle: &quot;Kasal sa Diyos&quot; Solo Exhibition at Pinto Art Museum.
-            Another review for my solo exhibit! Big thanks to Sir Pinggot Zulueta and John Legaspi for this opportunity.
-            This marks my third year being featured in a newspaper: 2020 at Eskinita Art Farm, 2021 at Secret Fresh, and
-            this year for my solo exhibit at Pinto.
-          </p>
-        </div>
+        <div className="text-white text-center mx-auto max-w-4xl p-6">
+  <p className="text-lg md:text-xl mb-6">
+    Brushing boundaries introduced Billy Bagtas to visual art at a young age. Tremendous potential and passion arose in the humble barrio of Caloocan, historically significant as the heart of the militant society that sparked the Philippine Revolution during the Spanish occupation of the Philippines. Art continues to evolve for and by our society, coexisting in a culture where it should serve the public and convey their hardships, anguish, grief, and faith.
+  </p>
+  <p className="text-lg md:text-xl mb-6">
+    Christian Billy E. Bagtas promotes art beyond words, himself, and societal stigmas. He listens to the ways people want to change the world and transcribes them into art that expresses their agony and joy in existence.
+  </p>
+  <p className="text-lg md:text-xl"> 
+    Billy began his artistic pursuit in 2013 at Eulogio &quot;Amang&quot; Rodriguez Institute of Science and Technology - Manila, where he studied Fine Arts. Painting became his solace, allowing him to express his thoughts and sentiments. Competitions helped him come of age and shape his artistic idealism. A watershed event came in 2017 when he met Sir Eski from Eskinita Art Gallery, who became his mentor and helped him win the Discovery Award. After college, Billy became a full-time painter and entered the Linangan Art Residency, where Sir Manny Garibay influenced his work substantially. Billy&apos;s art melds direction, competence, and narratives, reflecting his passion and optimism. His developing canvases urge people to follow him on his vivid artistic journey, marking him as a noteworthy creative in the art community.
+  </p>
+</div>
         <div className="w-full">
           <AppleCardsCarouselDemo />
         </div>
@@ -34,22 +37,7 @@ export default function Billybagtas() {
         </div>
       </main>
       <footer className="flex gap-6 flex-wrap items-center justify-center p-4 text-white">
-        
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+  
       </footer>
     </Background>
   );
