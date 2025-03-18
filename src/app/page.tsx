@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div className="text-white text-center mx-auto max-w-2xl p-6">
           <p className="text-lg md:text-xl">
-            Today's issue (June 13, 2022) at Manila Bulletin Lifestyle: "Kasal sa Diyos" Solo Exhibition at Pinto Art Museum.
+            Today&apos;s issue (June 13, 2022) at Manila Bulletin Lifestyle: &quot;Kasal sa Diyos&quot; Solo Exhibition at Pinto Art Museum.
             Another review for my solo exhibit! Big thanks to Sir Pinggot Zulueta and John Legaspi for this opportunity.
             This marks my third year being featured in a newspaper: 2020 at Eskinita Art Farm, 2021 at Secret Fresh, and
             this year for my solo exhibit at Pinto.
@@ -105,4 +105,3 @@ export default function Home() {
     </Background>
   );
 }
-

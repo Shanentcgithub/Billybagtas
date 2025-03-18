@@ -6,6 +6,7 @@ import React, {
   createContext,
   useContext,
   JSX,
+  useCallback,
 } from "react";
 import {
   IconArrowNarrowLeft,
@@ -63,7 +64,7 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
       carouselRef.current.scrollBy({ left: -300, behavior: "smooth" });
     }
   };
-  
+
   const scrollRight = () => {
     if (carouselRef.current) {
       carouselRef.current.scrollBy({ left: 300, behavior: "smooth" });
@@ -165,7 +166,13 @@ export const Card = ({
 }) => {
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement | null>(null);
-  const { onCardClose, currentIndex } = useContext(CarouselContext);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { onCardClose, currentIndex } = useContext(CarouselContext); // Disabled ESLint rule for currentIndex
+
+  const handleClose = useCallback(() => {
+    setOpen(false);
+    onCardClose(index);
+  }, [onCardClose, index]);
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
@@ -182,19 +189,12 @@ export const Card = ({
 
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [open]);
+  }, [open, handleClose]);
 
-
-  useOutsideClick(containerRef, () => handleClose());
-
+  useOutsideClick(containerRef, handleClose);
 
   const handleOpen = () => {
     setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-    onCardClose(index);
   };
 
   return (
