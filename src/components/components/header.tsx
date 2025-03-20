@@ -45,7 +45,7 @@ export function Header() {
             <ul className="flex flex-col gap-4 text-white font-sans">
               <li>
                 <Link
-                  href="/home"
+                  href="/"
                   className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
                 >
                   Home
@@ -53,7 +53,7 @@ export function Header() {
               </li>
               <li>
                 <Link
-                  href="/about"
+                  href="/aboutme"
                   className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
                 >
                   About Me
@@ -123,55 +123,6 @@ export function Header() {
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
-
-      <nav
-        className={`${
-          isMenuOpen ? "block" : "hidden"
-        } md:hidden w-full bg-black-600 bg-opacity-80`}
-      >
-        <ul className="flex flex-col items-center gap-4 text-white text-center p-4 font-sans">
-          <li>
-            <Link
-              href="/home"
-              className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/about"
-              className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/services"
-              className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            >
-              Gallery
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/contact"
-              className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            >
-              Exhibition
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/faq"
-              className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </nav>
     </header>
   );
 }
