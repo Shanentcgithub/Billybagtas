@@ -5,6 +5,7 @@ import Background from "@/components/components/background";
 
 export default function Billybagtas() {
   return (
+    
     <Background>
       <Header />
       <main className="flex flex-col gap-8 items-center px-4 py-8 md:px-8">
