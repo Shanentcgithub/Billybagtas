@@ -114,15 +114,8 @@ export function Header() {
             className="dark:invert mx-auto md:mx-0"
           />
         </div>
-
-        <button
-          className="md:hidden text-white focus:outline-none"
-          onClick={toggleMenu}
-          aria-label="Toggle menu"
-        >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
       </div>
     </header>
   );
 }
+//ss
