@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { AppleCardsCarouselDemo } from "@/components/components/applecardcaraousel";
 import Background from "@/components/components/background";
 import { Header } from "@/components/components/header";
 
