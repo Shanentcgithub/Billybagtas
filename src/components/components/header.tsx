@@ -6,12 +6,7 @@ import { useState } from "react";
 import { Menu, X, Facebook, Instagram, Mail } from 'lucide-react';
 
 export function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
