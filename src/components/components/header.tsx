@@ -25,10 +25,10 @@ export function Header() {
         </button>
 
         <div
-          className={`fixed top-0 left-0 h-full w-64 bg-gray-800 bg-opacity-95 transform ${
-            isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-          } transition-transform duration-300 ease-in-out z-40`}
-        >
+  className={`fixed top-0 left-0 h-full w-64 bg-black bg-opacity-80 backdrop-blur-sm transform ${
+    isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+  } transition-transform duration-300 ease-in-out z-40 shadow-xl`}
+>
           <div className="p-4">
             <button
               className="text-white focus:outline-none mb-4"
@@ -42,6 +42,7 @@ export function Header() {
                 <Link
                   href="/"
                   className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  onClick={toggleSidebar}
                 >
                   Home
                 </Link>
@@ -50,6 +51,7 @@ export function Header() {
                 <Link
                   href="/aboutme"
                   className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  onClick={toggleSidebar}
                 >
                   About Me
                 </Link>
@@ -58,6 +60,7 @@ export function Header() {
                 <Link
                   href="/exhibition"
                   className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  onClick={toggleSidebar}
                 >
                   Exhibition
                 </Link>
@@ -66,6 +69,7 @@ export function Header() {
                 <Link
                   href="/paintings"
                   className="hover:text-blue-400 block py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  onClick={toggleSidebar}
                 >
                   Paintings
                 </Link>
@@ -76,7 +80,7 @@ export function Header() {
                 href="https://www.facebook.com/billybagtas.official2018"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-blue-400"
+                className="text-white hover:text-blue-400 transition-colors duration-200"
               >
                 <Facebook size={24} />
               </a>
@@ -84,13 +88,13 @@ export function Header() {
                 href="https://www.instagram.com/billybagtas.official/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-blue-400"
+                className="text-white hover:text-blue-400 transition-colors duration-200"
               >
                 <Instagram size={24} />
               </a>
               <a
-                href="bagtaschristianbilly@gmail.com"
-                className="text-white hover:text-blue-400"
+                href="mailto:bagtaschristianbilly@gmail.com"
+                className="text-white hover:text-blue-400 transition-colors duration-200"
               >
                 <Mail size={24} />
               </a>
@@ -98,19 +102,21 @@ export function Header() {
           </div>
         </div>
 
-
         <div className="flex-shrink-0 w-full md:w-auto text-center md:text-right mb-2 md:mb-0">
-          <Image
-            src="/billybagtas.png"
-            alt="Logo"
-            width={200}
-            height={50}
-            priority
-            className="mx-auto md:mx-0"
-          />
+          <Link href="/" passHref>
+            <div className="cursor-pointer hover:opacity-80 transition-opacity duration-200">
+              <Image
+                src="/billybagtas.png"
+                alt="Billy Bagtas Logo"
+                width={200}
+                height={50}
+                priority
+                className="mx-auto md:mx-0"
+              />
+            </div>
+          </Link>
         </div>
       </div>
     </header>
   );
 }
-//ss
