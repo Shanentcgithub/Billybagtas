@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Header } from "../components/components/header";
-import { AppleCardsCarouselDemo } from "@/components/components/applecardcaraousel";
 import Background from "@/components/components/background";
 
 export default function Billybagtas() {
@@ -33,11 +32,7 @@ export default function Billybagtas() {
     Billy began his artistic pursuit in 2013 at Eulogio &quot;Amang&quot; Rodriguez Institute of Science and Technology - Manila, where he studied Fine Arts. Painting became his solace, allowing him to express his thoughts and sentiments. Competitions helped him come of age and shape his artistic idealism. A watershed event came in 2017 when he met Sir Eski from Eskinita Art Gallery, who became his mentor and helped him win the Discovery Award. After college, Billy became a full-time painter and entered the Linangan Art Residency, where Sir Manny Garibay influenced his work substantially. Billy&apos;s art melds direction, competence, and narratives, reflecting his passion and optimism. His developing canvases urge people to follow him on his vivid artistic journey, marking him as a noteworthy creative in the art community.
   </p>
 </div>
-        <div className="w-full">
-          <AppleCardsCarouselDemo />
-        </div>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-        
         </div>
       </main>
       <footer className="flex gap-6 flex-wrap items-center justify-center p-4 text-white">

@@ -54,12 +54,44 @@ const data = [
       <CardContent
         stories={[
           {
-            text: "The first rule of Apple club is that you boast about Apple club. Keep a journal, quickly jot down a grocery list, and take amazing class notes. Want to convert those notes to text? No problem. Langotiya jeetu ka mara hua yaar is ready to capture every thought.",
-            image: "https://assets.aceternity.com/macbook.png",
+            text: "Tuklas 2018 grantee, Billy Bagtas, introduces us to his beloved family and provides a tell-all tale of the inner workings of their Caloocan household in his first-ever solo exhibition entitled God Bless Our Home featuring twelve paintings and two sculptural installations.",
+            image: "/tuklas.png",
           },
           {
-            text: "The fullness of eternal life. The tree of life represents the fullness of eternal life that God wishes to lavish on humanity. It&apos;s one of the most powerful images in God&apos;s Word, extending from the first chapters of Genesis to the final ones of Revelation.",
-            image: "/life.png",
+            text: "",
+            image: "/tuklas1.png",
+          },
+          {
+            text: "",
+            image: "/tuklas2.png",
+          },
+          {
+            text: "",
+            image: "/tuklas3.png",
+          },
+          {
+            text: "",
+            image: "/tuklas4.png",
+          },
+          {
+            text: "",
+            image: "/tuklas5.png",
+          },
+          {
+            text: "",
+            image: "/tuklas6.png",
+          },
+          {
+            text: "",
+            image: "/tuklas7.png",
+          },
+          {
+            text: "",
+            image: "/tuklas8.png",
+          },
+          {
+            text: "",
+            image: "/tuklas9.png",
           },
         ]}
       />
