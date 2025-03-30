@@ -11,7 +11,7 @@ export default function Billybagtas() {
       <main className="flex flex-col gap-8 items-center px-4 py-8 md:px-8">
         <div className="flex justify-center items-center w-full">
           <Image
-            className="dark:invert w-full max-w-4xl h-auto"
+            className="w-full max-w-4xl h-auto"
             src="/billy.JPG"
             alt="Next.js logo"
             width={900}

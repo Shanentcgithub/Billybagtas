@@ -106,7 +106,7 @@ export function Header() {
             width={200}
             height={50}
             priority
-            className="dark:invert mx-auto md:mx-0"
+            className="mx-auto md:mx-0"
           />
         </div>
       </div>
