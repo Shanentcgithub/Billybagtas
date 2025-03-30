@@ -21,7 +21,7 @@ export default function Billybagtas() {
         </div>
         <div className="text-white text-center mx-auto max-w-4xl p-6">
         <p className="text-3xl text-white md:text-6xl font-semibold text-center text-gray-800 mb-6 tracking-wide">
-  Christian Billy E. Bagtas
+  Billy Bagtas
 </p>     
   <p className="text-lg md:text-xl mb-6">
     Brushing boundaries introduced Billy Bagtas to visual art at a young age. Tremendous potential and passion arose in the humble barrio of Caloocan, historically significant as the heart of the militant society that sparked the Philippine Revolution during the Spanish occupation of the Philippines. Art continues to evolve for and by our society, coexisting in a culture where it should serve the public and convey their hardships, anguish, grief, and faith.
